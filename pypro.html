@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <title>Python Projects</title>
+    <link rel="stylesheet" href="pypro.css"/>
+    <script
+      src="https://kit.fontawesome.com/a351c5997c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav id="home">
+          <a href="/MukeshsPortfolio/Index.html"><h1 class="logo"><span class="Mukesh">M</span>ukesh</h1>
+            <ul id="sidemenu"></a>
+          
+            
+            <li><a href="/MukeshsPortfolio/Index.html" target="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <a href="/MukeshsPortfolio/Index.html" class="back"><i class="fa-solid fa-arrow-left-long"></i></a>
+        
+        <div class="header-text">
+         
+          <h3>Hii, here is my</h3>
+          <h2><span>Python Projects</span><h2>
+        </div>
+      </div>
+    </div>
+    
+    <!-- --------Project1--------- -->
+    <div id="project">
+      <div class="container">
+        <div class="row">
+          <div class="project-col-1">
+            <h1 class="sub-title">Mensuration BLood Classifier</h1>
+            <p>
+              We stand for supporting- physical health by spreading awareness, mental health by giving a means to avoid distress, empowering education and availing to more scientific based health solutions and improving social participation by breaking taboos and normalizing menstruation.
+            </p>
+            </div>
+            <div class="project-col-2">
+              <img src="mensurationbloodclassifier.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------Project2--------- -->
+    <div id="project">
+      <div class="container">
+        <div class="row">
+          <div class="project-col-1">
+            <h1 class="sub-title">Color Code Detection</h1>
+            <p>
+              The process of identifying and extracting specific colors from an image stream. It's commonly used in computer vision applications, image processing, and robotics. The process involves converting an image's RGB (Red, Green, Blue) values into a color space that simplifies the identification of specific colors.
+            </p>
+            </div>
+            <div class="project-col-2">
+              <img src="color code.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------Project3--------- -->
+    <div id="project">
+      <div class="container">
+        <div class="row">
+          <div class="project-col-1">
+            <h1 class="sub-title">Text-To-Speech App</h1>
+            <p>
+              Text-to-speech (TTS) is a technology that converts written text into spoken words. In Python, you can utilize various libraries to implement text-to-speech functionality. One commonly used library is the gTTS library, which interfaces with Google Text-to-Speech API.
+            </p>
+            </div>
+            <div class="project-col-2">
+              <img src="texttospeech.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- -------------Footer------------- -->
+<div class="copyright">
+  <p>All rights reserved ©2023</p>
+</div>
+</div>
+
+
+<script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu=document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+<!-- -------------submit button --------------- -->
+
+</script>
+
+  </body>
+</html>
